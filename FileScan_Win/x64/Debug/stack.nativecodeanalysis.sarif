@@ -1,0 +1,209 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "取消对 NULL 指针“stack”的引用。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/zjl30/Desktop/FileScan_win/Project1/stack.c"
+                },
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 5,
+                  "endLine": 6,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "initStack",
+                  "decoratedName": "initStack",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zjl30/Desktop/FileScan_win/Project1/stack.c"
+                          },
+                          "region": {
+                            "startLine": 5,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "“stack”可能为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zjl30/Desktop/FileScan_win/Project1/stack.c"
+                          },
+                          "region": {
+                            "startLine": 6,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "已取消对“stack”的引用，但可能仍为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "取消对 NULL 指针“stack”的引用。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/zjl30/Desktop/FileScan_win/Project1/stack.c"
+                },
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 2,
+                  "endLine": 12,
+                  "endColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "initStack2",
+                  "decoratedName": "initStack2",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zjl30/Desktop/FileScan_win/Project1/stack.c"
+                          },
+                          "region": {
+                            "startLine": 11,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "“stack”可能为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zjl30/Desktop/FileScan_win/Project1/stack.c"
+                          },
+                          "region": {
+                            "startLine": 12,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "已取消对“stack”的引用，但可能仍为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.38.33133.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/zjl30/Desktop/FileScan_win/Project1/stack.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "41e8f05f96753c3bcdf287fa43c329d7c6e384c47f9acaecd68718a3895b0d28"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/zjl30/desktop/filescan_win/project1/stack.h"
+          },
+          "hashes": {
+            "sha-256": "fd443e14e1b48fd49e01a35ebdfbdf8ab77c3e8efda43dbf742bc286efb7a949"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/zjl30/desktop/filescan_win/project1/scan_tree.h"
+          },
+          "hashes": {
+            "sha-256": "a377cfe670e0ac74762fe1107857ac63895508fe97da50d358a025d6a537cfee"
+          }
+        }
+      ]
+    }
+  ]
+}

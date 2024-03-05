@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\zjl30\Desktop\FileScan_win\Project1\</FILEPATH>
+      <FILENAME>main.c</FILENAME>
+      <LINE>24</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>取消对 NULL 指针“root_stats”的引用。</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>14</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\zjl30\Desktop\FileScan_win\Project1\</FILEPATH>
+        <FILENAME>main.c</FILENAME>
+        <LINE>18</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\zjl30\Desktop\FileScan_win\Project1\</FILEPATH>
+        <FILENAME>main.c</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\zjl30\Desktop\FileScan_win\Project1\</FILEPATH>
+        <FILENAME>main.c</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\zjl30\Desktop\FileScan_win\Project1\</FILEPATH>
+        <FILENAME>main.c</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\zjl30\Desktop\FileScan_win\Project1\</FILEPATH>
+        <FILENAME>main.c</FILENAME>
+        <LINE>23</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“root_stats”可能为 NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\zjl30\Desktop\FileScan_win\Project1\</FILEPATH>
+        <FILENAME>main.c</FILENAME>
+        <LINE>24</LINE>
+        <COLUMN>25</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>已取消对“root_stats”的引用，但可能仍为 NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,45 @@
+﻿  main.c
+  scan_tree.c
+C:\Users\zjl30\Desktop\FileScan_win\Project1\scan_tree.c(19,60): warning C4028: 形参 2 与声明不同
+C:\Users\zjl30\Desktop\FileScan_win\Project1\scan_tree.c(147,66): warning C4244: “函数”: 从“unsigned __int64”转换到“unsigned long”，可能丢失数据
+C:\Users\zjl30\Desktop\FileScan_win\Project1\scan_tree.c(186,12): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+  C:\Users\zjl30\Desktop\FileScan_win\Project1\scan_tree.c(186,12):
+  请考虑在格式字符串中使用“%zd”
+  
+C:\Users\zjl30\Desktop\FileScan_win\Project1\scan_tree.c(162,34): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\zjl30\Desktop\FileScan_win\Project1\scan_tree.c(207,16): warning C4477: “printf”: 格式字符串“%lu”需要类型“unsigned long”的参数，但可变参数 1 拥有了类型“unsigned __int64”
+  C:\Users\zjl30\Desktop\FileScan_win\Project1\scan_tree.c(207,16):
+  请考虑在格式字符串中使用“%llu”
+  C:\Users\zjl30\Desktop\FileScan_win\Project1\scan_tree.c(207,16):
+  请考虑在格式字符串中使用“%Iu”
+  C:\Users\zjl30\Desktop\FileScan_win\Project1\scan_tree.c(207,16):
+  请考虑在格式字符串中使用“%I64u”
+  
+  simulate.c
+C:\Users\zjl30\Desktop\FileScan_win\Project1\simulate.c(121,22): warning C4047: “=”:“unsigned __int64”与“void *”的间接级别不同
+C:\Users\zjl30\Desktop\FileScan_win\Project1\simulate.c(122,22): warning C4047: “=”:“unsigned __int64”与“void *”的间接级别不同
+C:\Users\zjl30\Desktop\FileScan_win\Project1\simulate.c(111,33): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\zjl30\Desktop\FileScan_win\Project1\simulate.c(156,25): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\zjl30\Desktop\FileScan_win\Project1\simulate.c(203,20): warning C4477: “printf”: 格式字符串“%llu”需要类型“unsigned __int64”的参数，但可变参数 1 拥有了类型“int”
+  C:\Users\zjl30\Desktop\FileScan_win\Project1\simulate.c(203,20):
+  请考虑在格式字符串中使用“%u”
+  C:\Users\zjl30\Desktop\FileScan_win\Project1\simulate.c(203,20):
+  请考虑在格式字符串中使用“%I32u”
+  
+C:\Users\zjl30\Desktop\FileScan_win\Project1\simulate.c(298,16): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“unsigned __int64”
+  C:\Users\zjl30\Desktop\FileScan_win\Project1\simulate.c(298,16):
+  请考虑在格式字符串中使用“%llu”
+  C:\Users\zjl30\Desktop\FileScan_win\Project1\simulate.c(298,16):
+  请考虑在格式字符串中使用“%Iu”
+  C:\Users\zjl30\Desktop\FileScan_win\Project1\simulate.c(298,16):
+  请考虑在格式字符串中使用“%I64u”
+  
+C:\Users\zjl30\Desktop\FileScan_win\Project1\simulate.c(299,53): warning C4244: “函数”: 从“unsigned __int64”转换到“long”，可能丢失数据
+  sql.c
+  stack.c
+  正在生成代码
+  3 of 44 functions ( 6.8%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  Project1.vcxproj -> C:\Users\zjl30\Desktop\FileScan_win\Project1\x64\Release\FileScan_win.exe

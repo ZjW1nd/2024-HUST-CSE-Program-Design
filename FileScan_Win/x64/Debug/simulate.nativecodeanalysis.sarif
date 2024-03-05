@@ -1,0 +1,579 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6328",
+          "message": {
+            "text": "大小不匹配: 已将“int”作为 _Param_(2) 传递，但需要使用“long long”来调用“printf”。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/zjl30/Desktop/FileScan_win/Project1/simulate.c"
+                },
+                "region": {
+                  "startLine": 193,
+                  "startColumn": 13,
+                  "endLine": 193,
+                  "endColumn": 51
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "print_dirinfo",
+                  "decoratedName": "print_dirinfo",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C28182",
+          "message": {
+            "text": "取消对 NULL 指针的引用。“current”包含与“earliest”相同的 NULL 值。查看第 343 行以找出可能会发生此情况的前一位置"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/zjl30/Desktop/FileScan_win/Project1/simulate.c"
+                },
+                "region": {
+                  "startLine": 346,
+                  "startColumn": 24,
+                  "endLine": 346,
+                  "endColumn": 41
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "find_earliest_file",
+                  "decoratedName": "find_earliest_file",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zjl30/Desktop/FileScan_win/Project1/simulate.c"
+                          },
+                          "region": {
+                            "startLine": 338,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zjl30/Desktop/FileScan_win/Project1/simulate.c"
+                          },
+                          "region": {
+                            "startLine": 339,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zjl30/Desktop/FileScan_win/Project1/simulate.c"
+                          },
+                          "region": {
+                            "startLine": 340,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zjl30/Desktop/FileScan_win/Project1/simulate.c"
+                          },
+                          "region": {
+                            "startLine": 341,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zjl30/Desktop/FileScan_win/Project1/simulate.c"
+                          },
+                          "region": {
+                            "startLine": 342,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zjl30/Desktop/FileScan_win/Project1/simulate.c"
+                          },
+                          "region": {
+                            "startLine": 343,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zjl30/Desktop/FileScan_win/Project1/simulate.c"
+                          },
+                          "region": {
+                            "startLine": 344,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zjl30/Desktop/FileScan_win/Project1/simulate.c"
+                          },
+                          "region": {
+                            "startLine": 346,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zjl30/Desktop/FileScan_win/Project1/simulate.c"
+                          },
+                          "region": {
+                            "startLine": 347,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zjl30/Desktop/FileScan_win/Project1/simulate.c"
+                          },
+                          "region": {
+                            "startLine": 341,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zjl30/Desktop/FileScan_win/Project1/simulate.c"
+                          },
+                          "region": {
+                            "startLine": 342,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zjl30/Desktop/FileScan_win/Project1/simulate.c"
+                          },
+                          "region": {
+                            "startLine": 343,
+                            "startColumn": 30
+                          }
+                        },
+                        "message": {
+                          "text": "“current”可能为 NULL (进入此分支)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zjl30/Desktop/FileScan_win/Project1/simulate.c"
+                          },
+                          "region": {
+                            "startLine": 344,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zjl30/Desktop/FileScan_win/Project1/simulate.c"
+                          },
+                          "region": {
+                            "startLine": 346,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "已取消对“current”的引用，但可能仍为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C28182",
+          "message": {
+            "text": "取消对 NULL 指针的引用。“current”包含与“latest”相同的 NULL 值。查看第 363 行以找出可能会发生此情况的前一位置"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/zjl30/Desktop/FileScan_win/Project1/simulate.c"
+                },
+                "region": {
+                  "startLine": 366,
+                  "startColumn": 24,
+                  "endLine": 366,
+                  "endColumn": 41
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "find_latest_file",
+                  "decoratedName": "find_latest_file",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zjl30/Desktop/FileScan_win/Project1/simulate.c"
+                          },
+                          "region": {
+                            "startLine": 358,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zjl30/Desktop/FileScan_win/Project1/simulate.c"
+                          },
+                          "region": {
+                            "startLine": 359,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zjl30/Desktop/FileScan_win/Project1/simulate.c"
+                          },
+                          "region": {
+                            "startLine": 360,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zjl30/Desktop/FileScan_win/Project1/simulate.c"
+                          },
+                          "region": {
+                            "startLine": 361,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zjl30/Desktop/FileScan_win/Project1/simulate.c"
+                          },
+                          "region": {
+                            "startLine": 362,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zjl30/Desktop/FileScan_win/Project1/simulate.c"
+                          },
+                          "region": {
+                            "startLine": 363,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zjl30/Desktop/FileScan_win/Project1/simulate.c"
+                          },
+                          "region": {
+                            "startLine": 364,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zjl30/Desktop/FileScan_win/Project1/simulate.c"
+                          },
+                          "region": {
+                            "startLine": 366,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zjl30/Desktop/FileScan_win/Project1/simulate.c"
+                          },
+                          "region": {
+                            "startLine": 367,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zjl30/Desktop/FileScan_win/Project1/simulate.c"
+                          },
+                          "region": {
+                            "startLine": 361,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zjl30/Desktop/FileScan_win/Project1/simulate.c"
+                          },
+                          "region": {
+                            "startLine": 362,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zjl30/Desktop/FileScan_win/Project1/simulate.c"
+                          },
+                          "region": {
+                            "startLine": 363,
+                            "startColumn": 30
+                          }
+                        },
+                        "message": {
+                          "text": "“current”可能为 NULL (进入此分支)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zjl30/Desktop/FileScan_win/Project1/simulate.c"
+                          },
+                          "region": {
+                            "startLine": 364,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zjl30/Desktop/FileScan_win/Project1/simulate.c"
+                          },
+                          "region": {
+                            "startLine": 366,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "已取消对“current”的引用，但可能仍为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.38.33133.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/zjl30/Desktop/FileScan_win/Project1/simulate.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "0cacfb6f79bd136f0db2068eff85f7d8f18ab1afd95c98436ed440b0ac5fe151"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/zjl30/desktop/filescan_win/project1/simulate.h"
+          },
+          "hashes": {
+            "sha-256": "bff26405e2e6149cca0de174865164b15e52640951f00019506df95d26bf42bf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/zjl30/desktop/filescan_win/project1/stack.h"
+          },
+          "hashes": {
+            "sha-256": "fd443e14e1b48fd49e01a35ebdfbdf8ab77c3e8efda43dbf742bc286efb7a949"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/zjl30/desktop/filescan_win/project1/scan_tree.h"
+          },
+          "hashes": {
+            "sha-256": "a377cfe670e0ac74762fe1107857ac63895508fe97da50d358a025d6a537cfee"
+          }
+        }
+      ]
+    }
+  ]
+}
